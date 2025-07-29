@@ -4,6 +4,7 @@ import Education from './components/education/education'
 import Landing from './components/landing/landing'
 import Navbar from './components/navbar/navbar'
 import Projects from './components/projects/projects'
+import TechStack from './components/techstack/techstack'
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Education />
       <Projects />
+    
     </>
   )
 }

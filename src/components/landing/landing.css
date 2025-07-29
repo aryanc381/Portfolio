@@ -30,21 +30,51 @@ html, body {
 }
 .name h1 {
   display: flex;
-  font-weight: 400;
-  margin: 4vw 0 0vw 4vw;
+  font-weight: 200;
+  margin: 3vw 0 0vw 4vw;
   font-size: 20vw;
   letter-spacing: -0.4vw;
   color: white;
   font-style: italic;
+  z-index: 2;
+}
+
+.surname {
+  font-style: italic;
+  justify-content: end;
+  margin: -5vw 4vw 18vw 0;
+  color: rgb(255, 255, 255);
+  z-index: 1;
+  letter-spacing: -0.4vw;
+  display: flex;
+  position: relative;   
+  text-align: end;
+  font-size: 20vw;
+  text-align: end;
 }
 
 .name p {
-  margin: 16vw 0 0vw 19vw;
-  color: rgb(255, 255, 255);
-  /* font-family: "Inter Variable", "SF Pro Display", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif; */
-  letter-spacing: 0vw;
-  font-size: 2vw;
+  margin: 15vw 0 0vw 13vw;
+  font-size: 3.5vw;
   font-weight: 500;
+  letter-spacing: -0.25vw;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+  /* Gradient text setup */
+  background: linear-gradient(270deg, #ff0000, #ff8c00, #facc15, #ff0062, #ff0000);
+  background-size: 1000% 100%;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: moveGradient 10s linear infinite;
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  100% {
+    background-position: 100% 50%;
+  }
 }
 
 .name h2 {
@@ -61,14 +91,3 @@ html, body {
   cursor: pointer;
 }
 
-.surname {
-  font-style: italic;
-  justify-content: end;
-  margin: -6vw 4vw 5vw 0;
-  color: whitesmoke;
-  letter-spacing: -0.4vw;
-  display: flex;
-  text-align: end;
-  font-size: 20vw;
-  text-align: end;
-}
