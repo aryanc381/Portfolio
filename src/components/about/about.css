@@ -13,6 +13,16 @@ html, body {
   color: white;
 }
 
+.information p {
+    color: rgba(255, 255, 255, 0.558);
+    transition: 0.28s ease-in-out all;
+}
+
+
+.information p:hover {
+    color: white;
+    cursor: pointer;
+}
 .about {
     display: flex;
     gap: 3vw;
