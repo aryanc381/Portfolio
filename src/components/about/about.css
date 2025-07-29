@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+  height: 100%;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  background-color: #090909;
+  font-style: normal;
+  color: white;
+}
+
+.about {
+    display: flex;
+    gap: 3vw;
+    letter-spacing: 0.01vw;
+    font-size: 1.8vw;
+    margin-right: 8vw;
+    margin-bottom: 5vw;
+}
+
+.about img {
+    width: 30vw;
+    margin: 0 0 0 5vw;
+    border-radius: 1vw;
+}
+
+.about h1 {
+    font-family: "Instrument Serif", serif;
+    font-style: italic;
+    font-size: 3vw;
+    font-weight: 400;
+    letter-spacing: -0.1vw;
+}
+
+.aboutTitle {
+    display: flex;
+    gap: 1vw;
+    margin-bottom: 2vw;
+}
+.aboutTitle button {
+    text-decoration: none;
+    background-color: rgba(54, 54, 54, 0.209);
+    border: 0.01rem solid rgba(255, 255, 255, 0.226);
+    padding: 1vw 2vw 0.8vw 2vw;
+    color: rgb(255, 255, 255);
+    border-radius: 1vw;
+    transition: 0.2s ease-in-out all;
+    letter-spacing: -0.03vw;
+}
+
+.aboutTitle button:hover {
+    cursor: pointer;
+    background-color: white;
+    padding: 1.4vw 2.8vw 1.12vw 2.8vw;
+    color: black;
+}

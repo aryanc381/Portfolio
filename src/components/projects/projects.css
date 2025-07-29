@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    overflow-x: scroll;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #090909;
+    color: white;
+}
+
+.projects h1 {
+    font-family: "Instrument Serif", serif;
+    font-weight: 500;
+    font-style: italic;
+    font-weight: 500;
+    font-size: 7vw;
+    margin: 4vw;
+}
+
+.titleProj {
+    display: flex;
+    gap: 1vw;
+}
+
+.titleProj button {
+    margin-top: 6.5vw;
+    margin-right: 2vw;
+    border: 0.01rem rgba(50, 50, 50, 0.56) solid;
+    cursor: pointer;
+    border-radius: 1vw;
+    height: 5vw;
+    width: 20vw;
+    background-color: rgba(32, 32, 32, 0.356);
+    font-weight: 300;
+    color: rgba(219, 219, 219, 0.692);
+    letter-spacing: -0.04vw;
+    transition: 0.28s ease-in-out all;
+}
+
+.titleProj button:hover {
+    width: 23vw;
+    color: rgb(255, 255, 255);
+    background-color: rgb(44, 44, 44);
+    height: 6vw;
+}
+
