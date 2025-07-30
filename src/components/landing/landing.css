@@ -21,23 +21,23 @@ html, body {
   font-style: normal;
 }
 
-.name {
+.nameLand {
   display: flex;
 }
 
-.name video {
+.nameLand video {
   display: absolute;
 }
-.name h1 {
+.nameLand h1 {
   display: flex;
   font-weight: 200;
   margin: 3vw 0 0vw 4vw;
   font-size: 20vw;
   text-shadow:
     -0.1vw -0.1vw 0 #000,  
-     0.1vw -0.1vw 0 #000,
+     -0.1vw -0.1vw 0 #000,
     -0.1vw  0.1vw 0 #000,
-     1vw  1vw 0 #000;
+     0.6vw  0vw 0 #000;
   letter-spacing: -0.4vw;
   color: white;
   font-style: italic;
@@ -53,7 +53,7 @@ html, body {
     -0.1vw -0.1vw 0 #000,  
      0.1vw -0.1vw 0 #000,
     -0.1vw  0.1vw 0 #000,
-     1vw  1vw 0 #000;
+     0.6vw  0vw 0 #000;
   z-index: 1;
   letter-spacing: -0.4vw;
   display: flex;

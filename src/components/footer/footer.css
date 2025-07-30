@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+    overflow-x: scroll;
+    overflow-y: scroll;
+    scrollbar-width: none;
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
+.footer {
+    display: flex;
+    background-color: rgb(20, 20, 20);
+    border-top: 0.03rem rgba(207, 207, 207, 0.3) solid;
+    justify-content: space-between;
+    padding: 3.4vw 1vw 3vw 1vw;
+}
+
+.left {
+    margin: 1vw;
+}
+
+
+.left p {
+    font-size: 1.4vw;
+    letter-spacing: -0.07vw;
+    color: #ffffff73;
+}
+
+.left h1 {
+    font-size: 4vw;
+    font-weight: 500;
+    font-style: italic;
+    margin-left: 0.2vw;
+    font-family: "Instrument Serif", "serif";
+    color: white;
+}
+
+.center {
+    color: white;
+    margin: 0.9vw 0 0 0;
+}
+
+.center h1 {
+    font-size: 2vw;
+    margin-left: -0.1vw;
+    letter-spacing: -0.03vw;
+    font-weight: 100;
+}
+
+.center p {
+    transition: color 0.2s cubic-bezier(0.7, 0.04, 0.66, 1.71);
+    font-size: 1vw;
+    font-weight: 450;
+    color: #ffffff73;
+    margin-top: 1vw;
+}
+
+.center p:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.right {
+    letter-spacing: -0.06vw;
+    margin-right: 1vw;
+}
+
+.contactIcons {
+    display: flex;
+    margin: 1vw;
+}
+
+.contactIcons img {
+    width: 3vw;
+    height: 3vw;
+    border: none;
+    padding: 1vw 2vw 1vw 0;
+    transition: 0.3s cubic-bezier(0.7, 0.4, 0.66, 1.71);
+}
+
+.contactIcons button {
+    background: none;
+    border: none;
+}
+
+.contactIcons img:hover {
+    width: 3.2vw;
+    height: 3.2vw;
+    cursor: pointer;
+}
+
+.right h1 {
+    color: white;
+    font-weight: 500;
+    margin-left: -0.3vw;
+}
+
+.right p {
+    color: rgba(203, 203, 203, 0.47);
+}
+
+
+.contributors {
+    color: white;
+    margin: 1vw 0 0 0;
+}
+
+.contributors h1 {
+    font-size: 2vw;
+    margin-left: -0.1vw;
+    letter-spacing: -0.03vw;
+    font-weight: 100;
+}
+
+.contributors button {
+    display: flex;
+    flex-direction: column;
+    background: none;
+    text-align: left;
+    border: none;
+    width: 10vw;
+    transition: color 0.2s cubic-bezier(0.7, 0.04, 0.66, 1.71);
+    margin: 0 0 0 0;
+    font-size: 1vw;
+    font-weight: 450;
+    color: #ffffff73;
+    margin-top: 1vw;
+}
+
+.contributors button:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.containerIcons {
+    margin-left: -0.8vw;
+}

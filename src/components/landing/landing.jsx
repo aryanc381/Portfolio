@@ -4,7 +4,7 @@ function Landing() {
   return (
     <div className="instrument-serif-regular" style={{minHeight: "100vh", position: "relative"}}>
       <BGVideo />
-      <div className="name">
+      <div className="nameLand">
         {/* <video autoPlay loop muted playsInline className="video-bg" src="/your-video.mp4" /> */}
         <h1>Aryan</h1>
         <div style={{display: "flex", flexDirection: "column"}}>
@@ -20,7 +20,7 @@ function Landing() {
 function BGVideo() {
   return (
     <div>
-      <video autoPlay muted loop style={{ width: '100%', height: '100%', objectFit: 'cover', position: 'absolute', marginTop: "-2vw", transform: "scale(1.2)", opacity: "0.5"}}>
+      <video autoPlay muted loop style={{ width: '90.9%', height: '100%', objectFit: 'cover', position: 'absolute', marginTop: "-2vw", transform: "scale(1.2)", opacity: "1"}}>
         <source src="/bgVid2.mp4" type="video/mp4" />
         Your browser does not support the video tag.
         <div style={{

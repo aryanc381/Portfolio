@@ -26,9 +26,9 @@ html, body {
 .about {
     display: flex;
     gap: 3vw;
-    letter-spacing: -0.1vw;
+    letter-spacing: -0.05vw;
     font-size: 1.8vw;
-    font-weight: 400;
+    font-weight: 350;
     margin-right: 8vw;
     margin-bottom: 5vw;
 }

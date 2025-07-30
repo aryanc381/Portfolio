@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  background-color: #090909;
+  overflow-x: scroll;
+  overflow-y: scroll;
+  scrollbar-width: none;
+}
+
+.cardsStack {
+  color: white;
+}
+
+.allStack {
+  display: flex;
+  margin: 10vw 2vw 10vw 4vw;
+}
+.wrapper {
+  letter-spacing: -0.1vw;
+  font-size: 2vw;
+  width: 40vw;
+}
+
+.wrapper h1 {
+  font-family: "Instrument Serif", serif;
+  font-style: italic;
+  font-size: 7vw;
+  color: white;
+  font-weight: 470;
+  letter-spacing: -0.18vw;
+  
+}
+
+.wrapper p:hover {
+  color: white;
+  cursor: pointer;
+}
+
+.wrapper p {
+  color: rgba(199, 199, 199, 0.728);
+  transition: all 0.2s ease-in-out;
+}
+
+.cardsStack {
+  display: flex;
+  flex-direction: column;
+}
+
+.cardsStack {
+  margin: 0 0 0 0;
+}
+
+.stacker {
+  background-color: #121212;
+  text-decoration: none;
+  margin: 0.2vw 3vw 0.4vw 1vw;
+  border: none;
+  border-radius: 0.7vw;
+  color: rgba(199, 199, 199, 0.728);
+  padding: 2.21vw;
+  transition: all 0.2s ease-in-out;
+}
+
+.stacker:hover {
+  color: white;
+  cursor: pointer;
+  background-color: #161616;
+}
+
+.iconsStack {
+  margin-top: -vw;
+  color: white;
+  display: flex;
+  max-width: 33vw;
+  padding: 1vw;
+  border-radius: 1vw;
+}
+
+.iconsStack img {
+  width: 3vw;
+  height: 3vw;
+  transition: all 0.2s ease-in-out;
+}
+
+.iconsStack img:hover {
+  width: 3.5vw;
+  height: 3.5vw;
+  cursor: pointer;
+  filter: brightness(1.2) drop-shadow(0 0 8px #5959592b);
+}
+.logoI {
+    margin: 0 0 0 0;
+}
+
+.logos {
+  display: flex;
+  flex-direction: column;
+  transition: 0.2s all ease-in-out;
+  margin-top: 0.5vw;
+}
+
+.logos img {
+  padding: 1vw 2vw 2vw 2vw;
+}
