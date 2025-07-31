@@ -30,7 +30,7 @@ html, body {
 .titleProj button {
     margin-top: 6.5vw;
     margin-right: 2vw;
-    border: 0.01rem rgba(50, 50, 50, 0.56) solid;
+    border: 0.01rem rgb(85, 85, 85) solid;
     cursor: pointer;
     border-radius: 1vw;
     height: 5vw;
@@ -46,7 +46,7 @@ html, body {
     width: 23vw;
     color: rgb(255, 255, 255);
     background-color: rgb(44, 44, 44);
-    height: 6vw;
+    height: 5vw;
 }
 
 .InfoProj {

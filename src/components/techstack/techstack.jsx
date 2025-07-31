@@ -27,7 +27,7 @@ function TechStack() {
   return(
     <div className="allStack">
       <div className='wrapper'>
-        <h1>Tech Stack</h1>
+        <h1 style={{fontWeight: "500", fontSize: "6vw", letterSpacing: "0.1vw"}}>Tech Stack</h1>
         <p>We specialize in building Full-Stack AI Applications. Our solution integrates three core components AI, Web Development, and Hardware to deliver seamless, end-to-end experiences from intelligence to interface to deployment.</p>
       </div>
       <div className="cardsStack" style={{marginTop: "3vw"}}>

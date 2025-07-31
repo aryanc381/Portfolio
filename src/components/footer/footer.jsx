@@ -5,8 +5,7 @@ function Footer() {
     <div className='footer'>
         <div className="left">
             <h1>Aryan Chauhan</h1>
-            <p>Automizing the entire tourism industry.</p>
-            <p style={{marginTop: "1vw"}}>This page is under development, please let us <br/> know if any improvement is required.</p>
+            <p>Ever wondered who is mia khalifa??? </p>
         </div>
         <div className="center">
             <h1>Sections</h1>

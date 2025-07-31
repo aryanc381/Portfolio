@@ -21,7 +21,7 @@ function BGVideo() {
   return (
     <div>
       <video autoPlay muted loop style={{ width: '90.9%', height: '100%', objectFit: 'cover', position: 'absolute', marginTop: "-2vw", transform: "scale(1.2)", opacity: "1"}}>
-        <source src="/bgVid2.mp4" type="video/mp4" />
+        <source src="/bgVid14.mp4" type="video/mp4" />
         Your browser does not support the video tag.
         <div style={{
         position: "absolute",
