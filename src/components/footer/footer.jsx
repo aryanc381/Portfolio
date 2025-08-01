@@ -5,21 +5,21 @@ function Footer() {
     <div className='footer'>
         <div className="left">
             <h1>Aryan Chauhan</h1>
-            <p>Ever wondered who is mia khalifa??? </p>
+            <p>Get work done.</p>
         </div>
         <div className="center">
             <h1>Sections</h1>
-            <p onClick={() => window.location.href = "http://localhost:5173/"}>Home</p>
-            <p onClick={() => window.location.href = "http://localhost:5173/time"}>Timeline</p>
-            <p onClick={() => window.location.href = "http://localhost:5173/dev"}>Development</p>
-            <p onClick={() => window.location.href = "http://localhost:5173/business"}>Business</p>
-            <p onClick={() => window.location.href = "http://localhost:5173/team"}>Team</p>
+            <p onClick={() => window.location.href = "http://localhost:5173/"}>About</p>
+            <p onClick={() => window.location.href = "http://localhost:5173/time"}>Education</p>
+            <p onClick={() => window.location.href = "http://localhost:5173/dev"}>Projects</p>
+            <p onClick={() => window.location.href = "http://localhost:5173/business"}>Stack</p>
+            <p onClick={() => window.location.href = "http://localhost:5173/team"}>Research and Experience</p>
         </div>
         <div className='contributors'>
-            <h1>Contributors</h1>
-            <button onClick={() => window.open("https://linkedin.com/in/aryanc381", "_blank")}>Aryan Chauhan</button>
-            <button onClick={() => window.open("https://www.linkedin.com/in/aditya-yenpure-5089832b1/?originalSubdomain=in", "_blank")}>Aditya Yenpure</button>
-            <button onClick={() => window.open("https://research.mitwpu.edu.in/researcher/deepa-nath", "_blank")}>Deepa Nath</button>
+            <h1>Contribute</h1>
+            <button onClick={() => window.open("https://linkedin.com/in/aryanc381", "_blank")}>KahaaniAI</button>
+            <button onClick={() => window.open("https://www.linkedin.com/in/aditya-yenpure-5089832b1/?originalSubdomain=in", "_blank")}>MIT-Mitra</button>
+            <button onClick={() => window.open("https://research.mitwpu.edu.in/researcher/deepa-nath", "_blank")}>Conversational AI</button>
         </div>
         <div className="right">
             <h1>Contact Me</h1>

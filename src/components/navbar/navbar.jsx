@@ -13,7 +13,7 @@ function Navbar() {
                 <p>About</p>
                 <p>Education</p>
                 <p>Projects</p>
-                <p>Tech Stack</p>
+                <p>Stack</p>
                 <p>Experience</p>
                 <p>Research</p>
                 <p>Contact </p>

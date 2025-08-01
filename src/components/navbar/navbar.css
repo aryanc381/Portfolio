@@ -32,12 +32,12 @@ html, body {
 
 .nav-links {
     display: flex;
-    white-space: nowrap;
+
 }
 
 .nav-links p {
     transition: 0.28 ease-in-out all;
-    padding: 1.5vw 1vw 1vw 1vw;
+    padding: 1.55vw 1vw 1vw 1vw;
     color: #cecece;
 }
 
@@ -55,7 +55,7 @@ html, body {
 }
 
 .logo p {
-    margin: 0.5vw 0 0 1vw;
+    margin: 0.55vw 0 0 1vw;
     white-space: nowrap;
 }
 .nav-links p:last-child {

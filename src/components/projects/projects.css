@@ -37,15 +37,15 @@ html, body {
     width: 20vw;
     background-color: rgba(32, 32, 32, 0.356);
     font-weight: 300;
-    color: rgba(219, 219, 219, 0.692);
+    color: rgba(235, 235, 235, 0.835);
     letter-spacing: -0.04vw;
     transition: 0.28s ease-in-out all;
 }
 
 .titleProj button:hover {
     width: 23vw;
-    color: rgb(255, 255, 255);
-    background-color: rgb(44, 44, 44);
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
     height: 5vw;
 }
 
