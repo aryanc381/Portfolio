@@ -12,7 +12,10 @@ function About() {
                         window.open("public/ARYAN_CHAUHAN_RESUME_PDF.pdf", "_blank");
                     }}>Resume</button>
                 </div>
-                <p>A Full Stack AI Engineer with hands-on experience in building complete applications from frontend interfaces to backend systems and cloud infrastructure. <br/><br/>My work includes developing agentic AI workflows, fine-tuning large language models (LLMs), and integrating AI into full-stack solutions. <br/><br/>I focus on building reliable, scalable systems that solve real-world problems using a mix of modern web and AI technologies.</p>  
+                <p>I'm a final-year Full Stack AI Engineer building real, production-ready systems that combine web development with AI/ML.</p> <br/>
+                <p>I've handle the full ML dev pipeline, from data preparation to building or fine-tuning models, evaluating beyond metrics, and improving based on real-world feedback to finally deploying them to a serverless or server-based setup.</p><br/>
+                <p>I'm currently an open-source contributor at Googe Deepmind where I am solving issues on Gemini.</p><br/>
+                <p>I was previously an Instructor and Mentor at RanchoLabs, IITDelhi where I taught students Advance AI from the ground up.</p>  
             </div>
             
         </div>

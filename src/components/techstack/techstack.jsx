@@ -28,12 +28,12 @@ function TechStack() {
     <div className="allStack">
       <div className='wrapper'>
         <h1 style={{fontWeight: "500", fontSize: "6vw", letterSpacing: "0.1vw"}}>Tech Stack</h1>
-        <p>We specialize in building Full-Stack AI Applications. Our solution integrates three core components AI, Web Development, and Hardware to deliver seamless, end-to-end experiences from intelligence to interface to deployment.</p>
+        <p>My skills includes Python, C++, TensorFlow, PyTorch, MERN, Next.js, TypeScript, AWS, Firebase, Docker, HuggingFace and others building end-to-end AI solutions from models to production.</p>
       </div>
       <div className="cardsStack" style={{marginTop: "3vw"}}>
           <button className="stacker" onClick={dispAI}>Artificial Intelligence</button>
           <button className="stacker" onClick={dispWeb}>Web Development</button>
-          <button className="stacker" onClick={dispHardware}>Hardware Infrastructor</button>
+          <button className="stacker" onClick={dispHardware}>Languages</button>
       </div>
       <div className="iconsStack">
 
@@ -90,16 +90,16 @@ function TechStack() {
         {hardware ? 
         <div className='logos'>
         <div className='logoI'>
-          <img src="/icons/rasberry.png" alt="Rasberry" className='rasberry'/>
-          <img src="/icons/cuda.svg" alt="CUDA" className='cuda'/>
-          <img src="/icons/rfid.png" alt="RFID" className='rfid'/>
-          <img src="/icons/runpod.webp" alt="Runpod" className="runpod" />
+          <img src="/icons/cplus.webp" alt="Rasberry" className='rasberry'/>
+          <img src="/icons/python.png" alt="CUDA" className='cuda'/>
+          <img src="/icons/java.webp" alt="RFID" className='rfid'/>
+          <img src="/icons/ts.png" alt="Runpod" className="runpod" />
         </div>
         <div>
-          <img src="/icons/aws.png" alt="AWS" className="aws" />
-          <img src="/icons/virtualMachine.png" alt="VM" className='vm' />
-          <img src="/icons/pcb.jpg" alt="PCB" className="pcb" />
-          <img src="/icons/camera.webp" alt="Camera" className="camera" />
+          <img src="/icons/js.png" alt="AWS" className="aws" />
+          <img src="/icons/html.svg" alt="VM" className='vm' />
+          <img src="/icons/css.webp" alt="PCB" className="pcb" />
+          <img src="/icons/matlab.png" alt="Camera" className="camera" />
         </div>
 
         </div>

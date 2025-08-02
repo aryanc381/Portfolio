@@ -8,15 +8,15 @@ function Education() {
             <div className="boxEd">
                 <div className="containerEd">
                     <h2>Symbiosis Primary & Secondary School, Pune</h2>
-                    <p>2010 - 2020</p>
+                    <p>2010 - 2020  ‣ SSC Board</p>
                 </div>
                 <div className="containerEd">
-                    <h2>Arham Junior College</h2>
-                    <p>2020 - 2022</p>
+                    <h2>Arham Junior College, Pune</h2>
+                    <p>2020 - 2022 ‣ HSC Board</p>
                 </div>
                 <div className="containerEd">
-                    <h2>MIT World Peace University</h2>
-                    <p>2022 - 2026</p>
+                    <h2>MIT World Peace University, Pune</h2>
+                    <p>2022 - 2026 ‣ B.Tech Electronics Engineering (Specialization. AI-ML)</p>
                 </div>
             </div>
         </div>
